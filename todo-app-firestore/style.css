@@ -1,0 +1,24 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+body {
+  background-color: white !important;
+}
+.input-btn {
+  color: black !important;
+  text-transform: none !important;
+}
+
+input::placeholder {
+  color: black !important;
+  text-transform: capitalize !important;
+}
+/* 
+.forgot-btn {
+  width: 451px !important;
+} */
